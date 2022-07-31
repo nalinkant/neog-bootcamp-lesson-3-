@@ -3,6 +3,9 @@
 :root{
 
     --primary-color: #065f46;
+    --light-green: #4ade80;
+    --dark-red: #7f1d1d;
+
 }
 
 body {
@@ -96,3 +99,24 @@ margin: 0rem 0.25rem
      font-weight: bold;
 
 }
+
+.hero{
+padding: 2rem;
+}
+
+.hero-image {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading {
+    font-size: 2rem;
+    padding: 1rem;
+    color: var(--dark-red);
+}
+
+.hero .hero-heading .heading-text-highlight {
+    color: var(--primary-color);
+}
+
