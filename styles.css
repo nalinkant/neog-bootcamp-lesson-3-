@@ -5,6 +5,7 @@
     --primary-color: #065f46;
     --light-green: #4ade80;
     --dark-red: #7f1d1d;
+    --light-grey: #e2e8f0;
 
 }
 
@@ -121,4 +122,22 @@ padding: 2rem;
 }
 
 
+.section h1 {
+    text-align:center;
 
+}
+
+.section {
+    padding: 2rem;
+}
+
+.lg {
+    background-color: var(--light-grey);
+}
+
+.footer {
+background-color: var(--primary-color);
+padding: 2rem;
+text-align: center;
+color: white;
+}
