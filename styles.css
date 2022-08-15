@@ -98,12 +98,13 @@ hr {
 
 .navigation-container .nav-pills {
 
-    text-align: center;
+    text-align: right;
 }
 
 .navigation-container .link-active {
 
     font-weight: bold;
+    margin-inline: 0.25rem;
 }
 
 .navigation-container .nav-brand {
@@ -125,7 +126,7 @@ hr {
     text-align: center;
     font-size: 2rem;
     padding: 1rem;
-    color: var(--dark-red);
+    color: var(--primary-color);
 }
 
 .hero .hero-heading .heading-text-highlight {
