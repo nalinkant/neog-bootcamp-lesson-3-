@@ -37,7 +37,7 @@ hr {
 .link {
     text-decoration: none;
     padding: 0.5rem 1rem;
-    margin: 0rem 0.25rem; 
+    margin: 0rem 0.25rem;
 }
 
 .primary-link {
@@ -51,11 +51,11 @@ hr {
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
 }
-.link-secondary-margin {
-  text-decoration: none;
-  padding: 0.5rem 1rem;
-  margin: 0rem 0.05rem
 
+.link-secondary-margin {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    margin: 0rem 0.05rem
 }
 
 /* Lists */
@@ -167,4 +167,3 @@ hr {
     padding-inline-start: 0px;
     /* This was taking style from brwser so we override it. */
 }
-
