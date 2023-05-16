@@ -1,9 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
+:root {
+    --primary-color: #3f3f46;
+}
+
 
 body {
     font-family: 'Montserrat', sans-serif;
+    margin: 2px 1px;
 
+}
+
+hr {
+    color: var(--primary-color);
+    margin: 1rem 0rem;
 }
 
 .container {
@@ -12,8 +22,90 @@ body {
     padding-right: 1rem;
 }
 
+/** defining variable with dot(.) for container-center **/
 .container-center {
 
     max-width: 600px;
     margin: auto;
 }
+
+/** defining variable with dot(.) for links **/
+
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    margin: 0rem 0.5rem;
+
+}
+
+.link-primary {
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 0.5rem;
+
+}
+
+.link-secondary {
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 3px solid var(--primary-color);
+    
+   }
+
+.link-secondary-margin {
+    text-decoration: none;
+    padding: 0.5rem 0.5rem;
+    margin: 0rem 0.02rem
+}
+
+.list-non-bullet { 
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    list-style-type: disc;
+    list-style-position: inside;
+    padding: 0rem 1rem;
+}
+
+
+.navigation {
+    background-color: var(--primary-color);
+     color: white;
+     padding: 0.5rem 0rem 0.3rem 0rem;
+}
+
+.nav-pills {
+    color: white;
+    text-decoration: none;
+     padding: 1rem 1rem;
+    margin: 0rem 0rem;
+    font-size: 0.7rem;
+    
+
+}
+
+.nav-brand {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.navigation .nav-pills {
+    text-align: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
